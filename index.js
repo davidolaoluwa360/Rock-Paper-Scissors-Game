@@ -231,3 +231,10 @@ const scissorsgame = () =>{
 
 }
  
+
+//-------------------------------------------------------
+
+
+const resetInstructionModal = () =>{
+    document.querySelector(".instruction-modal").style.display = "none";
+}
