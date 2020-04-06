@@ -1,0 +1,138 @@
+/*Color used
+rgb(76, 77, 71)
+rgb(83, 107, 34)
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.upper-container{
+    width: 100%;
+    min-height: 15vh;
+    max-height: 100vh;
+    background-color: rgba(247, 247, 247, .5)
+}
+
+.bottom-container{
+    width: 100%;
+    min-height: 85vh;
+    max-height: 100vh;
+    background-color: rgb(76, 77, 71);
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.bottom-container .game-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottom-container .game-container span{
+    color: white;
+    font-size: 3.2em;
+    font-weight: bolder;
+}
+
+.bottom-container .game-container label{
+    background-color: crimson;
+    padding: .3em .7em;
+}
+
+.bottom-container .game-container .user{
+    margin-right: 1em;
+}
+
+.bottom-container .game-container .comp{
+    margin-left: 1em;
+}
+
+.game-roll{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    flex-wrap: wrap;
+}
+
+.game-roll .fa-hand-rock{
+    border-radius: 40px;
+    background-color: white;
+    padding: 1em 1em;
+    margin-right: .5em;
+}
+
+.game-roll .fa-hand-paper{
+    border-radius: 40px;
+    background-color: white;
+    padding: 1em 1em;
+    margin-right: .5em;
+}
+
+
+.game-roll .fa-hand-scissors{
+    border-radius: 40px;
+    background-color: white;
+    padding: 1em 1em;
+    margin-right: .5em;
+}
+
+.far{
+    font-size: 1.5em;
+}
+
+.game-roll .fa-hand-rock:hover{
+    border: 3px solid green;
+}
+
+.game-roll .fa-hand-paper:hover{
+    border: 3px solid green;
+}
+
+.game-roll .fa-hand-scissors:hover{
+    border: 3px solid green;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 45vh;
+    max-height: 100vh;
+    margin-top: 1em;
+}
+
+.scoreboard .far{
+    font-size: 3em;
+    padding: .5em .5em;
+    border-radius: 60px;
+    background-color: white;
+}
+
+.boardresult{
+    color: white;
+}
+
+.boardresult .myresult{
+    background-color: crimson;
+    font-weight: bold;
+    padding: .5em .5em;
+}
+
+.who{
+    font-weight: bold;
+    color: white;
+}
+
+
+.userchoosingchoice .who{
+    margin-left: 1.8em;
+}
