@@ -7,7 +7,6 @@ rgb(83, 107, 34)
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 .upper-container{
@@ -135,4 +134,78 @@ rgb(83, 107, 34)
 
 .userchoosingchoice .who{
     margin-left: 1.8em;
+}
+
+
+/*------------------------------------------------------*/
+.instruction-modal{
+    background-color: rgba(76, 77, 71, .4);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 15;
+    top: 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction-modal .instruction-container{
+    background-color: white;
+    min-width: 35vw;
+    max-width: 100vw;
+    min-height: 50vh;
+    max-height: 100vh;
+    border-radius: 30px;
+}
+
+.instruction-modal .instruction-container .top-reset{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction-modal .instruction-container .instructionBoard{
+    min-height: 43vh;
+    max-height: 100vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.instruction-modal .instruction-container .instructionBoard .gamesymbols{
+    display: flex;
+    height: 18vh;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.instruction-modal .instruction-container .instructionBoard .gamesymbols aside{
+    background-color: rgba(220, 220, 220);
+    padding: 1.5em 1.5em;
+    border-radius: 90px;
+    text-align: center;
+}
+
+.instruction-modal .instruction-container .instructionBoard .rules{
+    margin-top: .4em;
+}
+
+.instruction-modal .instruction-container .instructionBoard .startbtn button{
+    background-color: green;
+    padding: 1em 1.5em;
+}
+
+.instruction-modal .instruction-container .instructionBoard .startbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    height: 12vh;
+}
+
+.instruction-modal .instruction-container .instructionBoard .startbtn button:hover{
+    background-color: rgba(0, 255, 0, .8);
 }
