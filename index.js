@@ -25,10 +25,6 @@ const randomChoice = (arr) =>{
     return arr[Math.floor(Math.random() * arr.length)];
 }  
 
-//const reset = () => {
-//    
-//}
-
 
 const rockgame = () =>{
     
