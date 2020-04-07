@@ -7,6 +7,7 @@ rgb(83, 107, 34)
 *{
     box-sizing: border-box;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .upper-container{
@@ -136,6 +137,44 @@ rgb(83, 107, 34)
     margin-left: 1.8em;
 }
 
+/*--------------------------------------------------*/
+.timecounter-container{
+    width: 100%;
+    min-height: 9vh;
+    max-height: 100vh;
+    display: flex;
+}
+
+.timecounter-container .counter{
+    flex-grow: .5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timecounter-container .counter .Dcounter{
+    background-color: white;
+    padding: .9em .8em;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.timecounter-container .instructionBtn{
+    flex-grow: .5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timecounter-container .instructionBtn aside{
+    background-color: white;;
+    padding: .4em .4em;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
 
 /*------------------------------------------------------*/
 .instruction-modal{
@@ -196,6 +235,7 @@ rgb(83, 107, 34)
 .instruction-modal .instruction-container .instructionBoard .startbtn button{
     background-color: green;
     padding: 1em 1.5em;
+    font-weight: bold;
 }
 
 .instruction-modal .instruction-container .instructionBoard .startbtn{
