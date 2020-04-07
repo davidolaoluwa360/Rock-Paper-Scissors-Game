@@ -1,3 +1,5 @@
+//import Timer from "../node_modules/easytimer.js/dist/easytimer.js";
+
 var gameArray = ["Rock", "Paper", "Scissors"];
 
 var userScoreCounter = 0;
@@ -232,9 +234,19 @@ const scissorsgame = () =>{
 }
  
 
-//-------------------------------------------------------
-
+//------------------------------------------------------
 
 const resetInstructionModal = () =>{
     document.querySelector(".instruction-modal").style.display = "none";
+}
+
+//---------------------------------------------------------
+const timercounter = () =>{
+    
+}
+
+const instruction = () =>{
+    document.querySelector(".instruction-modal").style.display = "flex";
+    
+    document.querySelector(".startbtn button").innerHTML = "RESUME";
 }
